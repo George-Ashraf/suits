@@ -1,0 +1,848 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.items{
+    text-align: center;
+    border-radius: 15px;
+    
+ 
+}
+.navbar {
+
+    background: linear-gradient(to right, #5F2217, #C47861, white, #AAAFA7, #57493B);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 100000000;
+    box-shadow: red 0 0 10px;
+}
+
+.navbar .navbar-toggler i {
+    font-size: 18px;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.navbar .navbar-brand p {
+    position: relative;
+    top: 10px;
+    right: 13px;
+    animation-name: ani2;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+
+}
+
+@keyframes ani2 {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: red;
+    }
+
+    80% {
+        color: black;
+    }
+
+    100% {
+        color: white;
+    }
+
+}
+
+.navbar .navbar-brand img {
+    color: white;
+    width: 70px;
+    height: 60px;
+}
+
+.navbar .items .navbar-nav .nav-item .nav-link {
+    margin-right: 30px;
+    color: white;
+    transition: all 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar .items .navbar-nav .nav-item .nav-link:hover {
+    background-color: white;
+    color: black;
+    border-radius: 17px;
+
+}
+
+.photos {
+    margin-top: 70px;
+
+}
+
+.photos .carousel-inner .carousel-item img {
+    height: 700px;
+}
+
+.photos .carousel-inner .carousel-item .carousel-caption p {
+    margin-bottom: 300px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.photos .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+}
+
+.aboutus {
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/p8.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.aboutus .head {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.aboutus .head h1 {
+    color: white;
+    position: relative;
+    width: 390px;
+    margin: auto;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+}
+
+
+.aboutus .row {
+    width: 100%;
+    height: 500px;
+
+
+}
+
+.aboutus .row img {
+    height: 500px;
+    position: relative;
+    bottom: 50px;
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes ani {
+    0% {
+        bottom: 50px;
+    }
+
+    50% {
+        bottom: 80px;
+    }
+
+    100% {
+        bottom: 50px;
+    }
+
+}
+
+.aboutus .row .par {
+    height: 300px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+   
+   
+
+
+}
+
+.aboutus .row .par p {
+    margin: 0 130px;
+}
+
+.products {
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/p6.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.products .head {
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Lobster', cursive;
+}
+
+.products .head h1 {
+    color: white;
+    position: relative;
+    width: 390px;
+    margin: auto;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+}
+
+.products .row {
+    width: 90%;
+    height: 600px;
+    flex-wrap: nowrap;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.products .row .card img {
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.products .row .card {
+    margin: 30px;
+    height: 500px;
+    border: solid #5F2217 2px;
+    background-color: #5F2217;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+}
+
+.products .row .card .btn {
+    width: 200px;
+    background-color: #C47861;
+    border-radius: 30px;
+    box-shadow: brown 0 0 30px;
+    font-weight: bold;
+    transition: all 1s;
+
+}
+
+.products .row .card .btn:hover {
+    background-color: #fff;
+    transform: translatey(20px);
+
+}
+
+.mission {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/mission.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+.mission .head {
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Lobster', cursive;
+}
+
+.mission .head h1 {
+    color: white;
+    position: relative;
+    width: 390px;
+    margin: auto;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    overflow: hidden;
+
+
+}
+
+.mission .head h1 i {
+    position: absolute;
+    bottom: 0;
+    right: 270px;
+    font-size: 35px;
+    animation-name: miss;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+
+}
+
+.mission .head h1 #i2 {
+    position: absolute;
+    bottom: 0;
+    left: 270px;
+    font-size: 35px;
+    animation-name: miss;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+
+}
+
+@keyframes miss {
+    0% {
+        bottom: 300px;
+
+    }
+
+    25% {
+        bottom: 30px;
+
+    }
+
+    90% {
+        bottom: 0px;
+
+        transform: rotate(360deg) translateZ(30px);
+    }
+
+    100% {
+        bottom: 10px;
+        transform: translatey(50px);
+
+    }
+}
+
+.mission .par {
+    margin-top: 40px;
+    margin: auto;
+    height: 300px;
+}
+
+.mission .par p {
+    font-size: 25px;
+    margin-top: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 245, 245, 0.3);
+    box-shadow: 0 0 60px rgba(255, 255, 0, 0.377);
+    border-radius: 15px;
+}
+
+.gallery {
+    width: 100%;
+    height: 1500px;
+    background-image: url(../images/gallery.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gallery .head {
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Lobster', cursive;
+}
+
+.gallery .head h1 {
+    color: white;
+    position: relative;
+    width: 390px;
+    margin: auto;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+}
+
+.gallery .nav {
+    margin-left: 500px;
+    width: 550px;
+    border: solid black 2px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery .nav .nav-item {
+    margin: 9px;
+
+}
+
+.gallery .nav .nav-item button {
+    margin-left: 35px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: black;
+}
+
+.tab-content {
+    width: 100%;
+    height: 500px;
+}
+
+.tab-content #home {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.tab-content #home .g {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+
+
+}
+
+.tab-content #home .g img {
+    width: 100%;
+    height: 100%;
+    border: black solid 4px;
+}
+
+.tab-content #profile {
+    width: 100%;
+    height: 700px;
+    margin-top: 0;
+    position: relative;
+    bottom: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tab-content #profile .g {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+
+}
+
+.tab-content #profile .g img {
+    width: 100%;
+    height: 100%;
+    border: black solid 4px;
+}
+
+.tab-content #contact {
+    width: 100%;
+    height: 700px;
+    margin-top: 0;
+    position: relative;
+    bottom: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tab-content #contact .g {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+
+}
+
+.tab-content #contact .g img {
+    width: 100%;
+    height: 100%;
+    border: black solid 4px;
+}
+
+footer {
+
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to right, #23170B, #ACA298, #736245, #23170B);
+
+}
+
+footer .row {
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+footer .about {
+    height: 200px;
+    margin-left: 100px;
+
+
+}
+
+footer .about h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .about p {
+    color: #fff;
+}
+
+footer .cate {
+    height: 200px;
+
+
+}
+
+footer .cate a {
+    color: white
+}
+
+footer .cate h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .quicklinks {
+
+    height: 200px;
+}
+
+footer .quicklinks h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .quicklinks a {
+    color: white;
+}
+
+footer .copy {
+    height: 50px;
+    border-top: solid black 2px;
+    margin: auto;
+}
+
+footer .copy .row p {
+    color: #fff;
+    position: relative;
+    bottom: 33px;
+}
+
+footer .copy .row p a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .copy .row p a:hover {
+    color: crimson;
+}
+
+footer .copy .row .links {
+    position: relative;
+    bottom: 33px;
+
+}
+
+footer .copy .row .links i {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+footer .copy .row .links i:hover {
+    color: crimson;
+}
+@media(max-width:780px){
+    .items{
+        background: linear-gradient(to right, #5F2217, #C47861, #AAAFA7, #57493B);
+        text-align: center;
+        border-radius: 15px;
+        
+     
+    }
+   
+    .photos .carousel-inner .carousel-item img {
+        height: 400px;
+    }
+    
+    
+    .aboutus {
+        width: 100%;
+        height: 1300px;
+        background-image: url(../images/p8.jpeg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    
+    
+    }
+    
+   
+    
+    .aboutus .head h1 {
+        color: white;
+        position: relative;
+        width: 300px;
+        margin: auto;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom: white solid 2px;
+        border-left: white solid 2px;
+        border-right: white solid 2px;
+    }
+    
+    
+    .aboutus .row {
+    justify-content: center;
+    
+    }
+    
+    .aboutus .row img {
+        height: 500px;
+        width: 500px;
+        position: relative;
+        bottom: 50px;
+        animation-name: ani;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes ani {
+        0% {
+            bottom: 50px;
+        }
+    
+        50% {
+            bottom: 80px;
+        }
+    
+        100% {
+            bottom: 50px;
+        }
+    
+    }
+    
+    .aboutus .row .par {
+        height: 300px;
+        margin-top: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+       text-align: center;
+       
+    
+    
+    }
+    
+    .aboutus .row .par p {
+        margin: 0 0px;
+    }
+    
+    .products {
+        width: 100%;
+        height: 1900px;
+        background-image: url(../images/p6.jpeg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    .products .head h1 {
+        color: white;
+        position: relative;
+        width: 300px;
+        margin: auto;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom: white solid 2px;
+        border-left: white solid 2px;
+        border-right: white solid 2px;
+    }
+    
+    .products .row {
+        width: 100%;
+        height: 800px;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+    
+    }
+    
+    .products .row .card img {
+        height: 300px;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    .products .row .card {
+        height: 530px;
+        border: solid #5F2217 2px;
+        background-color: #5F2217;
+        border-radius: 30px;
+        text-align: center;
+        color: white;
+        transition: all 5s;
+        padding-bottom: 20px;
+    }
+    
+    .products .row .card .btn {
+        width: 150px;
+        background-color: #C47861;
+        border-radius: 30px;
+        box-shadow: brown 0 0 30px;
+        font-weight: bold;
+        transition: all 1s;
+    
+    }
+    
+    .products .row .card .btn:hover {
+        background-color: #fff;
+        transform: translatey(12px);
+    
+    }
+    
+    .mission {
+        width: 100%;
+        height: 1300px;
+        background-image: url(../images/mission.jpeg);
+        background-attachment: fixed;
+        background-size:100% 100% ;
+    
+    
+    }
+    
+    
+    .mission .head h1 {
+        color: white;
+        position: relative;
+        width: 300px;
+        margin: auto;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom: white solid 2px;
+        border-left: white solid 2px;
+        border-right: white solid 2px;
+        overflow: hidden;
+    
+    
+    }
+    
+    .mission .head h1 i {
+        position: absolute;
+        bottom: 0;
+        right: 250px;
+        font-size: 35px;
+        animation-name: miss;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+    
+    }
+    
+    .mission .head h1 #i2 {
+        position: absolute;
+        bottom: 0;
+        left: 250px;
+        font-size: 35px;
+        animation-name: miss;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+    
+    }
+    
+   
+    
+    .gallery {
+        width: 100%;
+        height: 3800px;
+        background-image: url(../images/gallery.jpeg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+    
+    .gallery .head h1 {
+        color: white;
+        position: relative;
+        width: 300px;
+        margin: auto;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        border-bottom: white solid 2px;
+        border-left: white solid 2px;
+        border-right: white solid 2px;
+    }
+    
+    .gallery .nav {
+        margin-left: 0px;
+        width: 350px;
+        border: solid black 2px;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .gallery .nav .nav-item {
+        margin: 0px;
+    
+    }
+    
+    .gallery .nav .nav-item button {
+        margin-left: 30px;
+        font-weight: bold;
+        border-radius: 15px;
+        color: black;
+    }
+    
+    
+    
+    footer {
+    
+        width: 100%;
+        height: 950px;
+        background: linear-gradient(to right, #23170B, #ACA298, #736245, #23170B);
+    
+    }
+    
+    footer .row {
+        justify-content: center;
+        padding-top: 40px;
+    
+    }
+    
+    footer .about {
+        height: 350px;
+        margin-left: 0px;
+    
+    
+    }
+    
+  
+
+    
+ 
+    
+    
+    
+}
