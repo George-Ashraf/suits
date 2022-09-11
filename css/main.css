@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    overflow-x: hidden;
+}
 
 .items{
     text-align: center;
@@ -571,6 +573,21 @@ footer .copy .row .links i:hover {
     color: crimson;
 }
 @media(max-width:780px){
+    .photos .carousel-inner .carousel-item img {
+        height: 700px;
+    }
+    
+    .photos .carousel-inner .carousel-item .carousel-caption p {
+        margin-bottom: 130px;
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+    
+    }
+    
+    .photos .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+    }
     .items{
         background: linear-gradient(to right, #5F2217, #C47861, #AAAFA7, #57493B);
         text-align: center;
